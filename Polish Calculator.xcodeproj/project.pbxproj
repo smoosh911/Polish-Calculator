@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43EA82E8AD52037F2AB5235 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B3F5FCB049E41070CDDC43 /* Pods.framework */; };
+		C719551E1BA4D7460037ADF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C719551D1BA4D7460037ADF3 /* AppDelegate.swift */; };
+		C71955231BA4D7460037ADF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71955211BA4D7460037ADF3 /* Main.storyboard */; };
+		C71955251BA4D7470037ADF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71955241BA4D7470037ADF3 /* Assets.xcassets */; };
+		C71955281BA4D7470037ADF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71955261BA4D7470037ADF3 /* LaunchScreen.storyboard */; };
+		C71955301BA4D9050037ADF3 /* PolishCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C719552F1BA4D9050037ADF3 /* PolishCalculatorViewController.swift */; };
+		C71955321BA4DF230037ADF3 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71955311BA4DF230037ADF3 /* CalculatorBrain.swift */; };
+		C75253ED1C6ECF570015330B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75253EC1C6ECF570015330B /* extensions.swift */; };
+		C75253EF1C6EF6B40015330B /* FacebookNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75253EE1C6EF6B40015330B /* FacebookNotificationViewController.swift */; };
+		C78D64211BC0E7A9008E8C3B /* calculator-512.png in Resources */ = {isa = PBXBuildFile; fileRef = C78D64201BC0E7A9008E8C3B /* calculator-512.png */; };
+		C7B1FD071C6C1F7600A54F14 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B1FD061C6C1F7600A54F14 /* SettingsViewController.swift */; };
+		C7B1FD091C6C1F9900A54F14 /* NormalCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B1FD081C6C1F9900A54F14 /* NormalCalculatorViewController.swift */; };
+		C7FFB56C1C6D84F0001CA1AB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FFB5691C6D84F0001CA1AB /* FBSDKCoreKit.framework */; };
+		C7FFB56D1C6D84F0001CA1AB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FFB56A1C6D84F0001CA1AB /* FBSDKLoginKit.framework */; };
+		C7FFB56E1C6D84F0001CA1AB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FFB56B1C6D84F0001CA1AB /* FBSDKShareKit.framework */; };
+		C7FFB5711C6D85D0001CA1AB /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFB5701C6D85D0001CA1AB /* MainNavigationController.swift */; };
+		C7FFB5741C6D9715001CA1AB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7FFB5721C6D9715001CA1AB /* Model.xcdatamodeld */; };
+		C7FFB57E1C6D97D1001CA1AB /* Setting+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFB57C1C6D97D1001CA1AB /* Setting+CoreDataProperties.swift */; };
+		C7FFB57F1C6D97D1001CA1AB /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FFB57D1C6D97D1001CA1AB /* Setting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42529BAF7066B467CA43C1D7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA21DDDBD686AE45631AB36 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		96B3F5FCB049E41070CDDC43 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C719551A1BA4D7460037ADF3 /* Polish Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polish Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C719551D1BA4D7460037ADF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C71955221BA4D7460037ADF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C71955241BA4D7470037ADF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Polish Calculator/Assets.xcassets"; sourceTree = "<group>"; };
+		C71955271BA4D7470037ADF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C71955291BA4D7470037ADF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C719552F1BA4D9050037ADF3 /* PolishCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolishCalculatorViewController.swift; path = "Polish Calculator/PolishCalculatorViewController.swift"; sourceTree = "<group>"; };
+		C71955311BA4DF230037ADF3 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "Polish Calculator/CalculatorBrain.swift"; sourceTree = "<group>"; };
+		C75253EC1C6ECF570015330B /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		C75253EE1C6EF6B40015330B /* FacebookNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookNotificationViewController.swift; sourceTree = "<group>"; };
+		C78D64201BC0E7A9008E8C3B /* calculator-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator-512.png"; path = "Polish Calculator/calculator-512.png"; sourceTree = "<group>"; };
+		C7B1FD061C6C1F7600A54F14 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Polish Calculator/SettingsViewController.swift"; sourceTree = "<group>"; };
+		C7B1FD081C6C1F9900A54F14 /* NormalCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NormalCalculatorViewController.swift; path = "Polish Calculator/NormalCalculatorViewController.swift"; sourceTree = "<group>"; };
+		C7FFB5691C6D84F0001CA1AB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C7FFB56A1C6D84F0001CA1AB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C7FFB56B1C6D84F0001CA1AB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		C7FFB56F1C6D8517001CA1AB /* FacebookBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookBridgingHeader.h; sourceTree = "<group>"; };
+		C7FFB5701C6D85D0001CA1AB /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = "Polish Calculator/MainNavigationController.swift"; sourceTree = "<group>"; };
+		C7FFB5731C6D9715001CA1AB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C7FFB57C1C6D97D1001CA1AB /* Setting+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Setting+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7FFB57D1C6D97D1001CA1AB /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71955171BA4D7460037ADF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FFB56E1C6D84F0001CA1AB /* FBSDKShareKit.framework in Frameworks */,
+				A43EA82E8AD52037F2AB5235 /* Pods.framework in Frameworks */,
+				C7FFB56C1C6D84F0001CA1AB /* FBSDKCoreKit.framework in Frameworks */,
+				C7FFB56D1C6D84F0001CA1AB /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51DFDC27170F6BAF88C62421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFB5691C6D84F0001CA1AB /* FBSDKCoreKit.framework */,
+				C7FFB56A1C6D84F0001CA1AB /* FBSDKLoginKit.framework */,
+				C7FFB56B1C6D84F0001CA1AB /* FBSDKShareKit.framework */,
+				96B3F5FCB049E41070CDDC43 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71955111BA4D7460037ADF3 = {
+			isa = PBXGroup;
+			children = (
+				C719551C1BA4D7460037ADF3 /* Calculator Walkthrough */,
+				C719551B1BA4D7460037ADF3 /* Products */,
+				F5E345997E2C1EE98083F8A2 /* Pods */,
+				51DFDC27170F6BAF88C62421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C719551B1BA4D7460037ADF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C719551A1BA4D7460037ADF3 /* Polish Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C719551C1BA4D7460037ADF3 /* Calculator Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFB5751C6D979A001CA1AB /* Model */,
+				C7FFB5761C6D97A3001CA1AB /* View */,
+				C7FFB5771C6D97A7001CA1AB /* Controller */,
+				C7FFB5801C6D9818001CA1AB /* SupportingFiles */,
+				C719551D1BA4D7460037ADF3 /* AppDelegate.swift */,
+			);
+			name = "Calculator Walkthrough";
+			path = "Polish Calculator";
+			sourceTree = "<group>";
+		};
+		C7FFB5751C6D979A001CA1AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFB57C1C6D97D1001CA1AB /* Setting+CoreDataProperties.swift */,
+				C7FFB57D1C6D97D1001CA1AB /* Setting.swift */,
+				C71955311BA4DF230037ADF3 /* CalculatorBrain.swift */,
+				C7FFB5721C6D9715001CA1AB /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C7FFB5761C6D97A3001CA1AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C71955211BA4D7460037ADF3 /* Main.storyboard */,
+				C71955261BA4D7470037ADF3 /* LaunchScreen.storyboard */,
+				C71955241BA4D7470037ADF3 /* Assets.xcassets */,
+				C78D64201BC0E7A9008E8C3B /* calculator-512.png */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C7FFB5771C6D97A7001CA1AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFB5701C6D85D0001CA1AB /* MainNavigationController.swift */,
+				C7B1FD081C6C1F9900A54F14 /* NormalCalculatorViewController.swift */,
+				C719552F1BA4D9050037ADF3 /* PolishCalculatorViewController.swift */,
+				C7B1FD061C6C1F7600A54F14 /* SettingsViewController.swift */,
+				C75253EE1C6EF6B40015330B /* FacebookNotificationViewController.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C7FFB5801C6D9818001CA1AB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C7FFB56F1C6D8517001CA1AB /* FacebookBridgingHeader.h */,
+				C71955291BA4D7470037ADF3 /* Info.plist */,
+				C75253EC1C6ECF570015330B /* extensions.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F5E345997E2C1EE98083F8A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42529BAF7066B467CA43C1D7 /* Pods.debug.xcconfig */,
+				6BA21DDDBD686AE45631AB36 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71955191BA4D7460037ADF3 /* Polish Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C719552C1BA4D7470037ADF3 /* Build configuration list for PBXNativeTarget "Polish Calculator" */;
+			buildPhases = (
+				EE20E8984788E51C4B8ABEB1 /* Check Pods Manifest.lock */,
+				C71955161BA4D7460037ADF3 /* Sources */,
+				C71955171BA4D7460037ADF3 /* Frameworks */,
+				C71955181BA4D7460037ADF3 /* Resources */,
+				06285B8321CC8C65EA257E28 /* Embed Pods Frameworks */,
+				DFECAC010F868A8D44EA89DF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polish Calculator";
+			productName = "Calculator Walkthrough";
+			productReference = C719551A1BA4D7460037ADF3 /* Polish Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C71955121BA4D7460037ADF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michael Perry";
+				TargetAttributes = {
+					C71955191BA4D7460037ADF3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KKY5YLK9HG;
+					};
+				};
+			};
+			buildConfigurationList = C71955151BA4D7460037ADF3 /* Build configuration list for PBXProject "Polish Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C71955111BA4D7460037ADF3;
+			productRefGroup = C719551B1BA4D7460037ADF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71955191BA4D7460037ADF3 /* Polish Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71955181BA4D7460037ADF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78D64211BC0E7A9008E8C3B /* calculator-512.png in Resources */,
+				C71955281BA4D7470037ADF3 /* LaunchScreen.storyboard in Resources */,
+				C71955251BA4D7470037ADF3 /* Assets.xcassets in Resources */,
+				C71955231BA4D7460037ADF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06285B8321CC8C65EA257E28 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFECAC010F868A8D44EA89DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE20E8984788E51C4B8ABEB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C71955161BA4D7460037ADF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FFB57E1C6D97D1001CA1AB /* Setting+CoreDataProperties.swift in Sources */,
+				C7FFB5711C6D85D0001CA1AB /* MainNavigationController.swift in Sources */,
+				C71955321BA4DF230037ADF3 /* CalculatorBrain.swift in Sources */,
+				C71955301BA4D9050037ADF3 /* PolishCalculatorViewController.swift in Sources */,
+				C7FFB5741C6D9715001CA1AB /* Model.xcdatamodeld in Sources */,
+				C75253ED1C6ECF570015330B /* extensions.swift in Sources */,
+				C75253EF1C6EF6B40015330B /* FacebookNotificationViewController.swift in Sources */,
+				C719551E1BA4D7460037ADF3 /* AppDelegate.swift in Sources */,
+				C7B1FD091C6C1F9900A54F14 /* NormalCalculatorViewController.swift in Sources */,
+				C7B1FD071C6C1F7600A54F14 /* SettingsViewController.swift in Sources */,
+				C7FFB57F1C6D97D1001CA1AB /* Setting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C71955211BA4D7460037ADF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71955221BA4D7460037ADF3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "Polish Calculator";
+			sourceTree = "<group>";
+		};
+		C71955261BA4D7470037ADF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71955271BA4D7470037ADF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "Polish Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C719552A1BA4D7470037ADF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C719552B1BA4D7470037ADF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C719552D1BA4D7470037ADF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42529BAF7066B467CA43C1D7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Polish Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smoosh911.Polish-Calculator";
+				PRODUCT_NAME = "Polish Calculator";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/FacebookBridgingHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C719552E1BA4D7470037ADF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA21DDDBD686AE45631AB36 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Polish Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smoosh911.Polish-Calculator";
+				PRODUCT_NAME = "Polish Calculator";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/FacebookBridgingHeader.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C71955151BA4D7460037ADF3 /* Build configuration list for PBXProject "Polish Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C719552A1BA4D7470037ADF3 /* Debug */,
+				C719552B1BA4D7470037ADF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C719552C1BA4D7470037ADF3 /* Build configuration list for PBXNativeTarget "Polish Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C719552D1BA4D7470037ADF3 /* Debug */,
+				C719552E1BA4D7470037ADF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7FFB5721C6D9715001CA1AB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7FFB5731C6D9715001CA1AB /* Model.xcdatamodel */,
+			);
+			currentVersion = C7FFB5731C6D9715001CA1AB /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = "Polish Calculator/Model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C71955121BA4D7460037ADF3 /* Project object */;
+}
